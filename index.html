@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Менеджер задач</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Менеджер задач</h1>
+        <div class="add-tasks_wrap">
+            <form id="form">
+                <input id="input-1" type="text" placeholder="Задача">
+                <button id="button-add">Добавить задачу</button>
+            </form>
+        </div>
+        <div class="tasks_wrap">
+            <h2>Список задач</h2>
+            <ul class="tasks">
+                <li class="no-task">
+                    <p>Нет задач</p>
+                </li>
+            </ul>
+            <button id="button-delete" disabled>Очистить список</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
